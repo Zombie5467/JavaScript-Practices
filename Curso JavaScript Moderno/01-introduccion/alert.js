@@ -1,0 +1,1 @@
+alert("Snow is a RHCP's song");

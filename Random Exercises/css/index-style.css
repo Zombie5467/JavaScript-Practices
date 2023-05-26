@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+    
+    
+}
+
+#divHtml {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+}
+
+.divCss {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
