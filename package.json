@@ -1,0 +1,24 @@
+{
+  "name": "javascript-practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zombie5467/JavaScript-Practices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zombie5467/JavaScript-Practices/issues"
+  },
+  "homepage": "https://github.com/Zombie5467/JavaScript-Practices#readme",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
