@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["Moone"]
+  "cSpell.words": ["Moone"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }
