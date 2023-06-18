@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../Assets/javascript.svg" />
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+    
+  <!-- Lesson 5 Cart -->
+    <section>
+      <button onclick="console.log(`cart's quantity: ${cartQuantity}`)">Show Quantity</button>
+      
+      
+      <button onclick="
+     if (cartQuantity + 1 > 10) { alert('The cart is full'); } 
+     else {cartQuantity++, console.log(`cart's quantity: ${cartQuantity}`) };
+      ">Add to Cart</button>
+      
+      
+      <button onclick="
+      if (cartQuantity + 2 > 10) { alert('The cart is full'); } 
+      else {cartQuantity+=2, console.log(`cart's quantity: ${cartQuantity}`) };
+      ">+2</button>
+
+      
+      <button onclick="
+      if (cartQuantity + 3 > 10) { alert('The cart is full'); } 
+      else {cartQuantity+=3, console.log(`cart's quantity: ${cartQuantity}`) };
+      ">+3</button>
+
+      
+      <button onclick="
+      if (cartQuantity - 2 < 0) { alert('Not enough items in the cart'); } 
+      else {cartQuantity-=2, console.log(`cart's quantity: ${cartQuantity}`) };
+      ">-2</button>
+
+      
+      <button onclick="
+      if (cartQuantity - 2 < 0) { alert('Not enough items in the cart'); } 
+      else {cartQuantity-=3, console.log(`cart's quantity: ${cartQuantity}`) };
+      ">-3</button>
+
+      
+      <button onclick="console.log(`cart's quantity was Reset`),cartQuantity=0, console.log(`cart's quantity: ${cartQuantity}`)">Reset Cart</button>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

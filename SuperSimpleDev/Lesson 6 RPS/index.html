@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../Assets/javascript.svg" />
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <button onclick="
+        if(randomNumber >= 0 && randomNumber < 1 / 3) {pcMove = 'rock';} 
+        else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {pcMove = 'paper';}
+        else if(randomNumber >= 2 / 3 && randomNumber < 1) {pcMove = 'scissors';}
+
+        if(pcMove = 'rock') {result = 'tie.';}
+        else if(pcMove = 'paper') {result = 'you lose';}
+        else if (pcMove = 'scissors') {result = 'you win'}
+
+        alert(`you picked rock. computer picked ${pcMove}. ${result}`);
+        ">Rock</button>
+
+    <button onclick="
+        if(randomNumber >= 0 && randomNumber < 1 / 3) {pcMove = 'rock';} 
+        else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {pcMove = 'paper';}
+        else if(randomNumber >= 2 / 3 && randomNumber < 1) {pcMove = 'scissors';}
+
+        if(pcMove = 'rock') {result = 'you win';}
+        else if(pcMove = 'paper') {result = 'tie.';}
+        else if (pcMove = 'scissors') {result = 'you lose'}
+
+        alert(`you picked paper. computer picked ${pcMove}. ${result}`);
+        ">Paper</button>
+
+    <button onclick="
+        if(randomNumber>= 0 && randomNumber < 1 / 3) {pcMove = 'rock';} 
+        else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {pcMove = 'paper';}
+        else if(randomNumber >= 2 / 3 && randomNumber < 1) {pcMove = 'scissors';}
+
+        if(pcMove = 'rock') {result = 'you lose';}
+        else if(pcMove = 'paper') {result = 'you win';}
+        else if (pcMove = 'scissors') {result = 'tie.'}
+
+        alert(`you picked scissors. computer picked ${pcMove}. ${result}`);
+        ">Scissors</button>
+
+
+    <script src="../Lesson 6 RPS/app.js"></script>
+</body>
+</html>
